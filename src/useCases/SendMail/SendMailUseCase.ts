@@ -1,4 +1,4 @@
-import { IMailProvider } from "../providers/IMailProvider";
+import { IMailProvider } from "../../providers/IMailProvider";
 import { ISendMailRequestDTO } from "./SendMailDTO";
 
 export class SendMailUseCase {

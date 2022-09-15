@@ -1,4 +1,4 @@
-import { IMailProvider, IMessage } from "../providers/IMailProvider";
+import { IMailProvider, IMessage } from "../../providers/IMailProvider";
 import { SendMailUseCase } from "./SendMailUseCase";
 
 const mailProvider: jest.Mocked<IMailProvider> = {

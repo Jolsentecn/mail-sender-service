@@ -3,6 +3,8 @@
 ## Funcionalidades
 - Recebe um post com o as informações necessarias para enviar um e-mail
 - Envia o e-mail com um layout simples html
+- Recebe o dados de novos usuarios via comunicação assincrona (Redis)
+- Guarda os e-mails e os nomes de todos os usuarios registrados (MongoDb)
 
 ## Como utilizar
 
