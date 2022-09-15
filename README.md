@@ -1,2 +1,20 @@
-# mail-sender-service
- simple mail sender service
+# Serviço para envio de e-mails 
+
+## Funcionalidades
+- Recebe um post com o as informações necessarias para enviar um e-mail
+- Envia o e-mail com um layout simples html
+
+## Como utilizar
+
+1. Envie um ``POST`` para o seguinte endpoint: ``/sendmail`` com o seguinte objeto:
+```
+{
+    "email": "joao.vitor@olsendev.com",
+    "subject": "Assunto do e-mail",
+    "message": "Corpo do e-mail"
+}
+```
+Retorno:
+```
+200 OK
+```
