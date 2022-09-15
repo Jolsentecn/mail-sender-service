@@ -11,6 +11,7 @@
 1. Envie um ``POST`` para o seguinte endpoint: ``/sendmail`` com o seguinte objeto:
 ```
 {
+    "name": "joao vitor"
     "email": "joao.vitor@olsendev.com",
     "subject": "Assunto do e-mail",
     "message": "Corpo do e-mail"
